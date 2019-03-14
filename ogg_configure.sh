@@ -6,7 +6,7 @@ ogg_config_path=$3 #ogg configure文件地址
 case $arch in  #检查XY_ARCH
 	i386 | x86_64 ) #模拟器
 		platform=iPhoneSimulator  #这个变量用来找/Applications/Xcode.app/Contents/Developerd的Platforms
-		host=$arch-apple-darwin10
+		host=arch-apple-darwin10
 		sdk_platform=iphonesimulator
 		ios_min_version=ios-simulator-version-min=7.0
 		;;
